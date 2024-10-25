@@ -1,0 +1,31 @@
+:root {
+  --deep-purple: rgb(81, 64, 130);
+  --vibrant-lavender: rgb(138, 100, 204);
+  --bright-pink: rgb(208, 82, 89);
+  --soft-lavender: rgb(208, 164, 217);
+  --peach-cream: rgb(240, 226, 203);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background: linear-gradient(135deg, var(--deep-purple), var(--vibrant-lavender));
+  color: var(--peach-cream);
+  overflow-x: hidden;
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--deep-purple);
+  color: var(--peach-cream);
+}
+
