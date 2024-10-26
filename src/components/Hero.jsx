@@ -1,11 +1,21 @@
 import { motion } from 'framer-motion';
 import RegisterButton from './RegisterButton';
+import logo from '../assets/logo.png'; // Update path based on your logo file type
 import '../styles/Hero.css';
 
 const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-content">
+        <motion.img
+          src={logo}
+          alt="DeFiLore Logo"
+          className="logo"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        />
+        
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -47,4 +57,3 @@ const Hero = () => {
 };
 
 export default Hero;
-

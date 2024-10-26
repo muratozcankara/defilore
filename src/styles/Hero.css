@@ -45,6 +45,12 @@
   z-index: 0;
 }
 
+.logo {
+  width: 120px; /* Adjust size as needed */
+  height: auto;
+  margin-bottom: 2rem;
+}
+
 @media (max-width: 768px) {
   .hero-content {
     padding: 1.5rem;
@@ -57,5 +63,8 @@
   .tagline {
     font-size: 1.2rem;
   }
-}
 
+  .logo {
+    width: 80px; /* Smaller size for mobile */
+  }
+}
