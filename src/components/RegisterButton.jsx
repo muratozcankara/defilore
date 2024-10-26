@@ -4,7 +4,7 @@ import '../styles/RegisterButton.css';
 const RegisterButton = () => {
   return (
     <motion.a
-      href="#" // Replace with your Google Form URL
+      href="https://forms.gle/XLESKEx6xAC2bKk79"
       className="register-button"
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
@@ -18,4 +18,3 @@ const RegisterButton = () => {
 };
 
 export default RegisterButton;
-
